@@ -7,15 +7,18 @@
 
 // console.log('Server running at http://127.0.0.1:1337/');
 
+function addPositive(a, b) {
+  if(a <= 0 || b <= 0)
+    return -1;
+  return a+b;
+}
+
+function add(a, b) {
+  return a+b;
+}
+
 module.exports
 = {
-  addPositive: (a, b) => {
-    if(a <= 0 || b <= 0)
-      return -1;
-    return a+b;
-  },
-
-  add: (a,b) => {
-    return a+b;
-  }
+  addPositive: addPositive,
+  add: add
 }
