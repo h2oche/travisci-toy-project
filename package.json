@@ -1,0 +1,26 @@
+{
+  "name": "travisci-toy-project",
+  "version": "1.0.0",
+  "description": "practive travisci",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2oche/travisci-toy-project.git"
+  },
+  "keywords": [
+    "travisci"
+  ],
+  "author": "h2oche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h2oche/travisci-toy-project/issues"
+  },
+  "homepage": "https://github.com/h2oche/travisci-toy-project#readme",
+  "devDependencies": {
+    "jshint": "^2.9.7",
+    "mocha": "^5.2.0"
+  }
+}
